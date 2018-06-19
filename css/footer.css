@@ -1,0 +1,172 @@
+.clr {
+    height: 250px;
+}
+
+.footer {
+    height: 250px;
+    background: #f0f0f0;
+    width: 1200px;
+    margin: -250px auto 0;
+}
+
+.footer .information{
+    width: 300px;
+    height: 150px;
+    margin: 50px 50px;
+    float: left;
+}
+
+.footer .information h2{
+    color:#000000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.footer .information ul{
+    width: 300px;
+    height: 100px;
+}
+
+.footer .information ul li{
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    width: 110px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.footer .information ul li:nth-child(2n){
+    margin-right: 0px;
+}
+
+.footer .information ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer .information ul li a:hover{
+    color:#ffaa00;
+}
+
+.footer .middle{
+    float: left;
+    margin: 50px 0 50px 50px;
+    width: 300px;
+    height: 150px;
+}
+
+.footer .middle .social{
+    width: 300px;
+    height: 75px;
+}
+
+.footer .middle .social ul{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.footer .middle .social ul li{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+}
+
+.footer .middle .social i{
+    font-size: 34px;
+}
+
+.footer .middle .social ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.footer .middle .social ul li a:hover{
+    text-decoration: none;
+    color:#ffaa00;
+}
+
+.footer .middle .copyright{
+    width: 300px;
+    height: 75px;
+    text-align: center;
+}
+
+.footer .middle .copyright p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer .middle .copyright p a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.footer .middle .copyright p a:hover{
+    text-decoration: underline;
+}
+
+.footer .subscribe{
+    width: 350px;
+    height: 150px;
+    float: right;
+    margin: 50px 50px;
+}
+
+.footer .subscribe p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.footer .subscribe form{
+    position: relative;
+}
+
+.footer .subscribe form #email{
+    font-family: 'Comfortaa', cursive;
+    height: 40px;
+    width: 330px;
+    padding: 0 40px 0 20px;
+    overflow: hidden;
+    border:none;
+    outline:none;
+    color: grey;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.footer .subscribe form #submit{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    border: none;
+    outline:none;
+    background: #ffffff url(../img/plane2.png) no-repeat 50% 50%;
+}
+
+.footer .subscribe form #submit:hover{
+    outline: 1px solid grey;
+}
+
+.footer .subscribe form #submit:active{
+    background-size: 50% 50%;
+}
+
+.footer *:not(input):focus{
+    outline:none;
+}

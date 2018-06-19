@@ -1,0 +1,27 @@
+.content{
+    width: 1200px;
+    height: 800px;
+    background: #ffffff url(../img/nonePage.jpg);
+}
+
+.content .text{
+    float: left;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 200px 300px;
+}
+
+.content .text h1{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.content .text p{
+    color: #000000;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+}

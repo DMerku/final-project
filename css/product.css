@@ -1,0 +1,292 @@
+.content{
+    width: 1200px;
+}
+
+.content .tab_control {
+    width: 1100px;
+    height: 70px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.content .tab_control li {
+    float: left;
+    list-style-type: none;
+    width: 180px;
+    height: 70px;
+    text-align: center;
+}
+
+.content .tab_control li a {
+    display: block;
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.content .tab_control li a:hover {
+    color: #212121;
+    font-weight: 700;
+}
+
+.content .tab_control li a:active {
+    outline: 1px solid red;
+}
+
+.content .product {
+    background: #f0f0f0;
+    width: 1200px;
+    height: 900px;
+}
+
+.content .leftSide{
+    float: left;
+    width: 600px;
+    height: 900px;
+}
+
+.content .product .productPicture {
+    float: left;
+    width: 525px;
+    height: 525px;
+    margin: 50px 25px 50px 50px;
+}
+
+.content .product .productPicture img {
+    width: 525px;
+    height: 525px;
+    margin-bottom: -5px;
+}
+
+.content .product .productPicture a:hover {
+    outline: 1px solid #000000;
+}
+
+.content .product .leftSide .characteristics{
+    display: inline-block;
+    margin: 0 25px 0 50px;
+    width: 525px;
+    height: 250px;
+}
+
+.content .product .leftSide .characteristics ul{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.content .product .leftSide .characteristics ul li{
+    float: left;
+    list-style-type: none;
+    width:250px;
+    height: 35px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.content .product .leftSide .characteristics ul li:nth-child(2n-1){
+    width:200px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-left: 30px;
+    background: url(../img/rubin.png) no-repeat 0px 5px;
+}
+
+.content .product .rightSide {
+    width: 525px;
+    float: left;
+    margin:50px 50px 50px 25px;
+}
+
+.content .product .rightSide h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content .product .rightSide h3 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.content .product .rightSide h1 {
+    text-align: center;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.content .product .rightSide h1 strong{
+    color: #212121;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.content .product .rightSide p {
+    width: 525px;
+    height: 500px;
+    overflow-y: scroll;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.content .product .rightSide a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 71px;
+    text-align: center;
+    border-radius: 36px;
+    text-align: center;
+    background: #f44133;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 525px;
+    height: 71px;
+    margin-bottom: 25px;
+}
+
+.content .product .rightSide a:hover {
+    background: #f44133 url(../img/gunter.png) no-repeat 390px -5px;
+}
+
+.content .product .rightSide a:active {
+    box-shadow: none;
+}
+
+.content .catalog {
+    height: 500px;
+    width: 1200px;
+}
+
+.content .catalog h2 {
+    float: left;
+    margin-left: 50px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+.content .catalog .toCatalog {
+    float: right;
+    display: block;
+    margin: 50px 50px 0 250px;
+    width: 320px;
+    padding: 0 60px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.content .catalog .toCatalog:hover {
+    background: #ffffff url(../img/listimage.png) no-repeat 260px 20px;
+    background-size: 60px auto;
+}
+
+.content .catalog .toCatalog:active {
+    background-color: #f0f0f0;
+    border-radius: 60px;
+}
+
+.content .catalog .product1{
+    float: left;
+    margin: 50px 0 50px 50px;
+    width: 300px;
+    height: 300px;
+    background: url(../img/item13.png);
+    background-size: 300px 300px;
+}
+
+.content .catalog .product2{
+    float: left;
+    margin: 50px 100px;
+    width: 300px;
+    height: 300px;
+    background: url(../img/item6.jpg);
+    background-size: 300px 300px;
+}
+
+.content .catalog .product3{
+    float: right;
+    margin:50px 50px 50px 0;
+    width: 300px;
+    height: 300px;
+    background: url(../img/item7.jpg);
+    background-size: 300px 300px;
+}
+
+.content .catalog * .content{
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.content .catalog * .content .toProduct {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.content .catalog * .content h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.content .catalog * .content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.content .catalog * .content > *{
+    text-align: center;
+    color: transparent;
+}
+
+.content .catalog * .content .toProduct:hover{
+    color:#f44133;
+}
+
+.content .catalog * .content:hover > *{
+    color: #000000;
+}
+
+.content .catalog * .content:hover > .toProduct{
+    background: #b0b0b0;
+    box-shadow: 0px 4px 5px 0.2px rgba(33, 33, 33, 0.35);
+}
+
+
+.content .catalog * .content:hover{
+    background-color: rgba(250, 250, 250, 0.7);
+    outline: 1px solid #a0a0a0;
+}
+
+
+.content .catalog * .content .toProduct:active{
+    box-shadow: none;    
+}

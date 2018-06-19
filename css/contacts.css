@@ -1,0 +1,159 @@
+.content {
+    width: 1200px;
+    height: 900px;
+}
+
+.content h1 {
+    margin: 50px 0 25px 50px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.content form {
+    float: left;
+    margin-left: 50px;
+    width: 550px;
+    height: 355px;
+    margin-bottom: 50px;
+}
+
+.content form fieldset{
+    margin: 0 auto;
+    padding: 20px 10px 0 10px;
+    height: 305px;
+    width: 270px;
+}
+
+.content form label {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.content form input {
+    font-family: 'Comfortaa', cursive;
+    width: 390px;
+    height: 30px;
+    padding-left: 10px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+}
+
+.content form textarea {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 5px;
+    width: 497px;
+    height: 130px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.content form input:focus,
+.content form textarea:focus{
+    outline:none;
+}
+
+#user_name,
+#user_topic,
+#user_text,
+:first-letter {
+    text-transform: capitalize;
+}
+
+#user_text {
+    resize: none;
+}
+
+.content form input[type='submit'],
+.content form input[type='reset'] {
+    font-family: 'Comfortaa', cursive;
+    width: 150px;
+    height: 30px;
+    margin: 10px 0 0 20px;
+    padding: 0;
+    border:none;
+    outline:none;
+    background:#f0f0f0;
+    border-radius: 30px;
+     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.content form input[type='submit']:hover{
+    color:transparent;
+    background: url(../img/button.png) no-repeat 50% 50%;
+    background-size: 150px 150px;
+}
+
+.content form input[type='reset']:hover{
+    color:transparent;
+    background: #f8c223 url(../img/button2.png) no-repeat 50% 50%;
+    background-size: 70px 70px;
+}
+
+.content form input[type='submit']:active,
+.content form input[type='reset']:active{
+    box-shadow: none;
+}
+
+.content .contacts{
+    float: left;
+    width: 550px;
+    height: 355px;
+    padding-left: 50px;
+    margin: 0 50px 50px 0;
+}
+
+.content .contacts h1{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.content .contacts b{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.content .contacts{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.content .contacts img{
+    width: 470px;
+    height: 220px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid #000000;
+}
+
+iframe {
+    width: 100%;
+    height: 374px;
+}

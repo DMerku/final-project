@@ -1,0 +1,71 @@
+.header {
+    width: 1200px;
+    height: 200px;
+    background: #f0f0f0;
+}
+
+.header .logo {
+    float: left;
+    margin: 50px 0 50px 50px;
+}
+
+.header .logo a img {
+    width: 250px;
+    height: 100px;
+    margin-bottom: -5px;
+}
+
+.header .menu {
+    float: right;
+    margin: 125px 50px 0 0;
+}
+
+.header .menu li {
+    float: left;
+    list-style-type: none;
+    width: 130px;
+    text-align: center;
+}
+
+.header .menu li a {
+    display: block;
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 10px;
+}
+
+.header .menu li a:hover {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    border-bottom: 1px solid #000000;
+}
+
+.header .menu li a:active {
+    outline: 1px solid #000000;
+}
+
+.header .menu li input {
+    width: 150px;
+    height: 24px;
+    display: block;
+    background: transparent;
+    border: transparent;
+    outline: none;
+    background: #f0f0f0 url(../img/search.png) no-repeat;
+    padding-left: 25px;
+    margin-left: 5px;
+}
+
+.header .menu li input:focus {
+    background: #ffffff url(../img/search.png) no-repeat;
+    border-radius: 20px;
+}
+
+.header *:not(input):focus{
+    outline:none;
+}
